@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+
+    <title>Hello</title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+    <link rel='stylesheet'
+          href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <!-- <link rel="stylesheet"
+          href="assets/css/main.css"> -->
+    <style>
+        body {
+            margin-top: 50px;
+            background-color: #fff;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            letter-spacing: 0.01em;
+            color: #39464e;
+        }
+
+        .brand-wrapper {
+            width: 100%;
+        }
+
+        .navbar-default {
+            background-color: #FFF;
+        }
+
+        /*main side bar*/
+        .msb {
+            width: 200px !important;
+            background-color: #F5F7F9;
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: auto;
+            min-height: 100%;
+            overflow-y: auto;
+            white-space: nowrap;
+            height: 100%;
+            z-index: 1;
+            border-right: 1px solid #ddd;
+        }
+
+        .msb .navbar {
+            border: none;
+            margin-left: 0;
+            background-color: inherit;
+        }
+
+        .msb .navbar-header {
+            width: 100%;
+            border-bottom: 1px solid #e7e7e7;
+            margin-bottom: 20px;
+            background: #fff;
+        }
+
+        .msb .navbar-nav .card {
+            border: 0 none;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            margin: 0;
+            background: inherit;
+        }
+
+        .msb .navbar-nav li {
+            display: block;
+            width: 100%;
+        }
+
+        .msb .navbar-nav li a {
+            padding: 15px;
+            color: #5f5f5f;
+        }
+
+        .msb .navbar-nav li a .glyphicon,
+        .msb .navbar-nav li a .fa {
+            margin-right: 8px;
+        }
+
+        .msb .nb {
+            padding-top: 5px;
+            padding-left: 10px;
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+
+        ul.nv,
+        ul.ns {
+            position: relative;
+            padding: 0;
+            list-style: none;
+        }
+
+        .nv li {
+            display: block;
+            position: relative;
+        }
+
+        .nv li::before {
+            clear: both;
+            content: "";
+            display: table;
+        }
+
+        .nv li a {
+            color: #444;
+            padding: 10px 25px;
+            display: block;
+        }
+
+        .nv li a .ic {
+            font-size: 16px;
+            margin-right: 5px;
+            font-weight: 300;
+            display: inline-block;
+        }
+
+        .nv .ns li a {
+            padding: 10px 50px;
+        }
+
+        /*main content wrapper*/
+        .mcw {
+            margin-left: 200px;
+            position: relative;
+            min-height: 100%;
+        }
+
+        /*globals*/
+        a,
+        a:focus,
+        a:hover {
+            text-decoration: none;
+        }
+
+        .inbox .container-fluid {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .inbox ul,
+        .inbox li {
+            margin: 0;
+            padding: 0;
+        }
+
+        .inbox ul li {
+            list-style: none;
+        }
+
+        .inbox ul li a {
+            display: block;
+            padding: 10px 20px;
+        }
+
+        .msb,
+        .mnb {
+            -webkit-animation: slidein 300ms forwards;
+            animation: slidein 300ms forwards;
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+        }
+
+        .mcw {
+            -webkit-animation: bodyslidein 300ms forwards;
+            animation: bodyslidein 300ms forwards;
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+        }
+
+        body.msb-x .mcw,
+        body.msb-x .mnb {
+            margin-left: 0;
+            -webkit-animation: bodyslideout 300ms forwards;
+            animation: bodyslideout 300ms forwards;
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+        }
+
+        body.msb-x .msb {
+            -webkit-animation: slideout 300ms forwards;
+            animation: slideout 300ms forwards;
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+        }
+
+        /* Slide in animation */
+
+        @-webkit-keyframes slidein {
+            0% {
+                left: -200px;
+            }
+
+            100% {
+                left: 0;
+            }
+        }
+
+        @keyframes slidein {
+            0% {
+                left: -200px;
+            }
+
+            100% {
+                left: 0;
+            }
+        }
+
+        @-webkit-keyframes slideout {
+            0% {
+                left: 0;
+            }
+
+            100% {
+                left: -200px;
+            }
+        }
+
+        @keyframes slideout {
+            0% {
+                left: 0;
+            }
+
+            100% {
+                left: -200px;
+            }
+        }
+
+        @-webkit-keyframes bodyslidein {
+            0% {
+                left: 0;
+            }
+
+            100% {
+                left: 0;
+            }
+        }
+
+        @keyframes bodyslidein {
+            0% {
+                margin-left: 0;
+            }
+
+            100% {
+                margin-left: 200px;
+            }
+        }
+
+        @-webkit-keyframes bodyslideout {
+            0% {
+                margin-left: 200px;
+            }
+
+            100% {
+                margin-left: 0;
+            }
+        }
+
+        @keyframes bodyslideout {
+            0% {
+                margin-left: 200px;
+            }
+
+            100% {
+                margin-left: 0;
+            }
+        }
+
+        /*# sourceMappingURL=main.css.map */
+    </style>
+</head>
+
+<body>
+    <nav class="mnb navbar navbar-light bg-light fixed-top navbar-expand-md">
+        <div class="container-fluid">
+            <button type="button"
+                    class="navbar-toggler collapsed"
+                    data-toggle="collapse"
+                    data-target="#navbar"
+                    aria-expanded="false"
+                    aria-controls="navbar"> <span class="sr-only">Toggle navigation</span>
+                <i class="ic fa fa-bars"></i>
+            </button>
+            <div style="padding: 15px 0;"> <a href="#"
+                   id="msbo"><i class="ic fa fa-bars"></i></a>
+            </div>
+            <div id="navbar"
+                 class="navbar-collapse collapse">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#"
+                           class="nav-link">En</a>
+                    </li>
+                    <li class="dropdown nav-item"> <a href="#"
+                           class="dropdown-toggle nav-link"
+                           data-toggle="dropdown"
+                           role="button"
+                           aria-haspopup="true"
+                           aria-expanded="false">Draude Oba <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item"><a href="#">Settings</a>
+                            </li>
+                            <li class="dropdown-item"><a href="#">Upgrade</a>
+                            </li>
+                            <li class="dropdown-item"><a href="#">Help</a>
+                            </li>
+                            <li role="separator"
+                                class="divider dropdown-item"></li>
+                            <li class="dropdown-item"><a href="#">Logout</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#"
+                           class="nav-link"><i class="fa fa-bell-o"></i></a>
+                    </li>
+                    <li class="nav-item"><a href="#"
+                           class="nav-link"><i class="fa fa-comment-o"></i></a>
+                    </li>
+                </ul>
+                <form class="form-inline ml-auto">
+                    <input type="text"
+                           class="form-control"
+                           placeholder="Search...">
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--msb: main sidebar-->
+    <div class="msb"
+         id="msb">
+        <nav class="navbar navbar-light bg-light navbar-expand-md"
+             role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="brand-wrapper">
+                <!-- Brand -->
+                <div class="brand-name-wrapper"> <a class="navbar-brand"
+                       href="#">
+
+                        SAITAMA
+
+                    </a>
+                </div>
+            </div>
+            <!-- Main Menu -->
+            <div class="side-menu-container">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item"><a href="#"
+                           class="nav-link"><i class="fa fa-dashboard"></i> Dashboard</a>
+                    </li>
+                    <li class="active nav-item"><a href="#"
+                           class="nav-link"><i class="fa fa-puzzle-piece"></i> Components</a>
+                    </li>
+                    <li class="nav-item"><a href="#"
+                           class="nav-link"><i class="fa fa-heart"></i> Extras</a>
+                    </li>
+                    <!-- Dropdown-->
+                    <li class="card nav-item"
+                        id="dropdown"> <a data-toggle="collapse"
+                           href="#dropdown-lvl1"
+                           class="nav-link">
+
+                            <i class="fa fa-diamond"></i> Apps
+
+                            <span class="caret"></span>
+
+                        </a>
+                        <!-- Dropdown level 1 -->
+                        <div id="dropdown-lvl1"
+                             class="panel-collapse collapse">
+                            <div class="card-body">
+                                <ul class="nav navbar-nav">
+                                    <li class="nav-item"><a href="#"
+                                           class="nav-link">Mail</a>
+                                    </li>
+                                    <li class="nav-item"><a href="#"
+                                           class="nav-link">Calendar</a>
+                                    </li>
+                                    <li class="nav-item"><a href="#"
+                                           class="nav-link">Ecommerce</a>
+                                    </li>
+                                    <li class="nav-item"><a href="#"
+                                           class="nav-link">User</a>
+                                    </li>
+                                    <li class="nav-item"><a href="#"
+                                           class="nav-link">Social</a>
+                                    </li>
+                                    <!-- Dropdown level 2 -->
+                                    <li class="card nav-item"
+                                        id="dropdown"> <a data-toggle="collapse"
+                                           href="#dropdown-lvl2"
+                                           class="nav-link">
+
+                                            <i class="glyphicon glyphicon-off"></i> Sub Level <span
+                                                  class="caret"></span>
+
+                                        </a>
+                                        <div id="dropdown-lvl2"
+                                             class="panel-collapse collapse">
+                                            <div class="card-body">
+                                                <ul class="nav navbar-nav">
+                                                    <li class="nav-item"><a href="#"
+                                                           class="nav-link">Link</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="#"
+                                                           class="nav-link">Link</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="#"
+                                                           class="nav-link">Link</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a href="#"
+                           class="nav-link"><span class="glyphicon glyphicon-signal"></span> Link</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+    </div>
+    <!--main content wrapper-->
+    <div class="mcw">
+        <!--navigation here-->
+        <!--main content view-->
+        <div class="cv">
+            <div>
+                <div class="inbox">
+                    <div class="inbox-sb"></div>
+                    <div class="inbox-bx container-fluid">
+                        <div class="row">
+                            <div class="col-lg-2">
+                                <ul>
+                                    <li><a href="#">Inbox</a>
+                                    </li>
+                                    <li><a href="#">Sent</a>
+                                    </li>
+                                    <li><a href="#">Trash</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-10">
+                                <table class="table table-stripped">
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox">
+                                            </td>
+                                            <td><i class="fa fa-star"></i>
+                                            </td>
+                                            <td><b>Mozilla</b>
+                                            </td>
+                                            <td><b>In celebration of women and girls everywhere</b>
+                                            </td>
+                                            <td></td>
+                                            <td>Mar 10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox">
+                                            </td>
+                                            <td><i class="fa fa-star-o"></i>
+                                            </td>
+                                            <td>Dan Glenn</td>
+                                            <td>[ptcuser-announcements] - PTC/USER Expert Speaker Series Webinar March
+                                                9, 2017 11AM (EST)</td>
+                                            <td><i class="fa fa-paperclip"></i>
+                                            </td>
+                                            <td>Mar 10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox">
+                                            </td>
+                                            <td><i class="fa fa-star-o"></i>
+                                            </td>
+                                            <td>Jetpack</td>
+                                            <td>Announcing some highly requested improvements and our new affiliate
+                                                program</td>
+                                            <td></td>
+                                            <td>Mar 08</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox">
+                                            </td>
+                                            <td><i class="fa fa-star-o"></i>
+                                            </td>
+                                            <td>Jetpack</td>
+                                            <td>Announcing some highly requested improvements and our new affiliate
+                                                program</td>
+                                            <td></td>
+                                            <td>Mar 08</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox">
+                                            </td>
+                                            <td><i class="fa fa-star-o"></i>
+                                            </td>
+                                            <td>Jetpack</td>
+                                            <td>Announcing some highly requested improvements and our new affiliate
+                                                program</td>
+                                            <td></td>
+                                            <td>Mar 08</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox">
+                                            </td>
+                                            <td><i class="fa fa-star-o"></i>
+                                            </td>
+                                            <td>Jetpack</td>
+                                            <td>Announcing some highly requested improvements and our new affiliate
+                                                program</td>
+                                            <td></td>
+                                            <td>Mar 08</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox">
+                                            </td>
+                                            <td><i class="fa fa-star-o"></i>
+                                            </td>
+                                            <td>Jetpack</td>
+                                            <td>Announcing some highly requested improvements and our new affiliate
+                                                program</td>
+                                            <td></td>
+                                            <td>Mar 08</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <input type="checkbox">
+                                            </td>
+                                            <td><i class="fa fa-star-o"></i>
+                                            </td>
+                                            <td>Jetpack</td>
+                                            <td>Announcing some highly requested improvements and our new affiliate
+                                                program</td>
+                                            <td></td>
+                                            <td>Mar 08</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <script id="rendered-js">
+        (function () {
+            $('#msbo').on('click', function () {
+                $('body').toggleClass('msb-x');
+            });
+        })();
+//# sourceURL=pen.js
+    </script>
+</body>
+
+</html>
