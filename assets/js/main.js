@@ -316,7 +316,7 @@ function show_projects() {
     </div>
     <div class="row">
         <div class="col-12 col-lg-4 mt-4">
-            <div class="card px-2">
+            <div class="card">
                 <div class="img-area">
                     <img src="assets/img/projects/ciresto.png"
                          alt="Ciresto"
@@ -324,7 +324,7 @@ function show_projects() {
                 </div>
                 <h5>Sistem Manajemen Restoran</h5>
                 <p>Website manajemen restoran dari admin hingga pelayan.</p>
-                <div class="card-footer">
+                <div class="card-footer px-2">
                     <span class="tech">Codeigniter 3</span>
                     <span class="tech">JQuery</span>
                 </div>
