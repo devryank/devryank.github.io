@@ -42,6 +42,7 @@ function show_section(active, show, topNav) {
                                 break;
                             case 'skills':
                                 show_skills();
+                                break;
                             case 'projects':
                                 show_projects();
                                 break;
@@ -59,6 +60,7 @@ function show_section(active, show, topNav) {
                             break;
                         case 'skills':
                             show_skills();
+                            break;
                         case 'projects':
                             show_projects();
                             break;
@@ -177,7 +179,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Bootstrap</h5>
-                <p><b>3 years</b> of experience</p>
+                <p><b>2 years</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -188,7 +190,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Materialize</h5>
-                <p><b>3 years</b> of experience</p>
+                <p><b>2 months</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -210,7 +212,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Git</h5>
-                <p><b>2 years</b> of experience</p>
+                <p><b>1 year</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -265,7 +267,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Laravel</h5>
-                <p><b>2 years</b> of experience</p>
+                <p><b>3 months</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -276,7 +278,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Wordpress</h5>
-                <p><b>2 years</b> of experience</p>
+                <p><b>11 months</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -287,7 +289,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Lunacy</h5>
-                <p><b>2 years</b> of experience</p>
+                <p><b>8 months</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -298,7 +300,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Photoshop</h5>
-                <p><b>2 years</b> of experience</p>
+                <p><b>3 years</b> of experience</p>
             </div>
         </div>
     </div>
