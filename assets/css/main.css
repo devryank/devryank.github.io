@@ -77,7 +77,6 @@ h2 {
 
 nav {
     position: absolute;
-    margin-top: -150px;
     left: 0;
     right: 0;
 }
@@ -272,11 +271,17 @@ nav li a:hover:before {
     #top img {
         transform: translate(103%, -80%);
     }
+    nav {
+        margin-top: -150px;
+    }
 }
 
 @media only screen and (max-width: 1199px) {
     #top img {
         transform: translate(80%, -80%);
+    }
+    nav {
+        margin-top: -150px;
     }
 }
 
@@ -343,5 +348,11 @@ nav li a:hover:before {
     nav ul li a {
         font-size: 12px;
         padding: 5px;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    nav {
+        margin-top: -50px !important;
     }
 }
