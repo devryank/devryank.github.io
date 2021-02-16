@@ -259,6 +259,8 @@ nav li a:hover:before {
 #projects .tech {
     background-color: #344078;
     padding: 5px 8px;
+    margin-right: 3px;
+    margin-left: 3px;
     color: white;
 }
 

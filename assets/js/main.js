@@ -316,7 +316,7 @@ function show_projects() {
     </div>
     <div class="row">
         <div class="col-12 col-lg-4 mt-4">
-            <div class="card">
+            <div class="card px-2">
                 <div class="img-area">
                     <img src="assets/img/projects/ciresto.png"
                          alt="Ciresto"
