@@ -322,8 +322,8 @@ function show_projects() {
                          alt="Ciresto"
                          class="mx-auto">
                 </div>
-                <h5>Sistem Manajemen Restoran</h5>
-                <p>Website manajemen restoran dari admin hingga pelayan.</p>
+                <h5>Restaurant Management System</h5>
+                <p>Restaurant management that can manage from admin to waiter.</p>
                 <div class="card-footer px-2">
                     <span class="tech">Codeigniter 3</span>
                     <span class="tech">JQuery</span>
@@ -337,8 +337,8 @@ function show_projects() {
                          alt="CISPK"
                          class="mx-auto">
                 </div>
-                <h5>Sistem Pendukung Keputusan Metode SAW</h5>
-                <p>SPK dapat digunakan untuk berbagai macam studi kasus, contohnya seleksi calon karyawan.
+                <h5>Decision Support System with SAW Method</h5>
+                <p>DSS that can be for various case, e.g., selection employees.
                 </p>
                 <div class="card-footer">
                     <span class="tech">Codeigniter 4</span>
@@ -354,8 +354,7 @@ function show_projects() {
                          class="mx-auto">
                 </div>
                 <h5>Wisataku</h5>
-                <p>Website vlog wisata dan user dapat meminta tempat yang ingin dikunjungi dengan mengirim
-                    donasi.
+                <p>Travel vlog website and user can request a place to visit and give a donation to guide.
                 </p>
                 <div class="card-footer">
                     <span class="tech">Laravel 6</span>
@@ -370,7 +369,7 @@ function show_projects() {
                          class="mx-auto">
                 </div>
                 <h5>Online Course</h5>
-                <p>Website belajar secara online.
+                <p>Online learning website.
                 </p>
                 <div class="card-footer">
                     <span class="tech">Codeigniter 4</span>
@@ -385,7 +384,7 @@ function show_projects() {
                          class="mx-auto">
                 </div>
                 <h5>Ruang Nostalgia</h5>
-                <p>Website reuni semua angkatan.
+                <p>Renion website of all generation.
                 </p>
                 <div class="card-footer">
                     <span class="tech">Codeigniter 3</span>
@@ -401,7 +400,7 @@ function show_projects() {
                          class="mx-auto">
                 </div>
                 <h5>Statistika Dasar Data Kelompok</h5>
-                <p>Website untuk mengurutkan dan menghitung data kelompok statistika.
+                <p>Website for sorting and calculating statistical group data .
                 </p>
                 <div class="card-footer">
                     <span class="tech">PHP Native</span>
