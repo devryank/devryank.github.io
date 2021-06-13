@@ -267,7 +267,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Laravel</h5>
-                <p><b>3 months</b> of experience</p>
+                <p><b>7 months</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
