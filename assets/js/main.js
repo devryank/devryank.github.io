@@ -13,7 +13,6 @@ function show_section(active, show, topNav) {
             opacity: 0,
         }, 800, function () {
             if (show == 'top') {
-                console.log(distance);
                 $('nav').css('top', '');
                 $('nav').css('margin-top', '0');
                 $('nav').animate({
