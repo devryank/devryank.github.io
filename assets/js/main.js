@@ -1,7 +1,6 @@
 var scrollTop = $(window).scrollTop(),
     elementOffset = $('nav').offset().top,
     distance = (elementOffset - scrollTop);
-
 function show_section(active, show, topNav) {
     if (show == 'top') {
         topNav = '';
@@ -72,7 +71,6 @@ function show_section(active, show, topNav) {
         })
     }
 }
-
 function show_top() {
     $('#top').html(`<div class="container h-100">
         <div class="card col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 py-5 mx-auto text-center"
@@ -186,11 +184,22 @@ function show_skills() {
             <div class="card text-center pt-4 pb-3">
                 <div class="img-area">
                     <img src="assets/img/skill/materialize.png"
-                         alt="bootstrap"
+                         alt="materializecss"
                          width="100px">
                 </div>
                 <h5>Materialize</h5>
                 <p><b>2 months</b> of experience</p>
+            </div>
+        </div>
+        <div class="col-6 col-lg-3 mt-4">
+            <div class="card text-center pt-4 pb-3">
+                <div class="img-area">
+                    <img src="assets/img/skill/tailwind.png"
+                         alt="tailwindcss"
+                         width="100px">
+                </div>
+                <h5>Tailwindcss</h5>
+                <p><b>4 months</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -207,23 +216,23 @@ function show_skills() {
         <div class="col-6 col-lg-3 mt-4">
             <div class="card text-center pt-4 pb-3">
                 <div class="img-area">
-                    <img src="assets/img/skill/git.png"
-                         alt="git"
-                         width="100px">
-                </div>
-                <h5>Git</h5>
-                <p><b>1 year</b> of experience</p>
-            </div>
-        </div>
-        <div class="col-6 col-lg-3 mt-4">
-            <div class="card text-center pt-4 pb-3">
-                <div class="img-area">
                     <img src="assets/img/skill/jquery.png"
                          alt="Jquery"
                          width="100px">
                 </div>
                 <h5>Jquery</h5>
                 <p><b>2 years</b> of experience</p>
+            </div>
+        </div>
+        <div class="col-6 col-lg-3 mt-4">
+            <div class="card text-center pt-4 pb-3">
+                <div class="img-area">
+                    <img src="assets/img/skill/vue.png"
+                         alt="vue"
+                         width="100px">
+                </div>
+                <h5>VueJS</h5>
+                <p><b>1 month</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -279,6 +288,17 @@ function show_skills() {
                 </div>
                 <h5>Wordpress</h5>
                 <p><b>11 months</b> of experience</p>
+            </div>
+        </div>
+        <div class="col-6 col-lg-3 mt-4">
+            <div class="card text-center pt-4 pb-3">
+                <div class="img-area">
+                    <img src="assets/img/skill/git.png"
+                         alt="git"
+                         width="100px">
+                </div>
+                <h5>Git</h5>
+                <p><b>1 year</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -415,24 +435,20 @@ function show_projects() {
 
 $('li.top').on('click', function () {
     let active = $('.container').parent().attr('id');
-    console.log(active);
     show_section(active, 'top', -150);
 })
 
 $('li.experience').on('click', function () {
     let active = $('.container').parent().attr('id');
-    console.log(active);
     show_section(active, 'experience', 20);
 })
 
 $('li.skills').on('click', function () {
     let active = $('.container').parent().attr('id');
-    console.log(active);
     show_section(active, 'skills', 20);
 })
 
 $('li.projects').on('click', function () {
     let active = $('.container').parent().attr('id');
-    console.log(active);
     show_section(active, 'projects', 20);
 })
