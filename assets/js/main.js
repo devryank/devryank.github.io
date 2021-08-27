@@ -33,7 +33,7 @@ function show_section(active, show, topNav) {
                     }, 800, function () {
                         $('#' + active).removeClass('h-100');
                         $('#' + active + '>.container').remove();
-                        $('#' + show).css('top', '50')
+                        $('#' + show).css('top', '50');
                         switch (show) {
                             case 'experience':
                                 show_experience();
@@ -435,19 +435,32 @@ function show_projects() {
 $('li.top').on('click', function () {
     let active = $('.container').parent().attr('id');
     show_section(active, 'top', -150);
-})
+});
 
 $('li.experience').on('click', function () {
     let active = $('.container').parent().attr('id');
     show_section(active, 'experience', 20);
-})
+});
 
 $('li.skills').on('click', function () {
     let active = $('.container').parent().attr('id');
     show_section(active, 'skills', 20);
-})
+});
 
 $('li.projects').on('click', function () {
     let active = $('.container').parent().attr('id');
     show_section(active, 'projects', 20);
-})
+});
+
+$('#facebook').on('click', function () {
+    window.location.href = "https://web.facebook.com/devryank/";
+});
+$('#github').on('click', function () {
+    window.location.href = "https://github.com/devryank";
+});
+$('#instagram').on('click', function () {
+    window.location.href = "https://instagram.com/devryank/";
+});
+$('#linkedin').on('click', function () {
+    window.location.href = "https://www.linkedin.com/in/ryan-kurniawan-204127173/";
+});

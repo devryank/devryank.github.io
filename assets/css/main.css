@@ -46,7 +46,8 @@ h2 {
   padding-top: 20px;
 }
 
-.touch-me a {
+.touch-me span {
+  cursor: pointer;
   padding: 0px 10px;
   color: #344078;
 }
