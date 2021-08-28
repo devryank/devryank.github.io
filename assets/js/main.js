@@ -80,11 +80,10 @@ function show_top() {
             <h2 class="mt-5">Ryan Kurniawan</h2>
             <h4><span class="highlight">Enthusiastic</span> <b>Web Developer</b></h4>
             <div class="touch-me">
-                <a href="https://web.facebook.com/devryank/"><i class="fab fa-facebook fa-2x"></i></a>
-                <a href="https:/github.com/devryank/"><i class="fab fa-github fa-2x"></i></a>
-                <a href="https://instagram.com/devryank/"><i class="fab fa-instagram fa-2x"></i></a>
-                <a href="https://www.linkedin.com/in/ryan-kurniawan-204127173/"><i
-                        class="fab fa-linkedin fa-2x"></i></a>
+                <span id="facebook"><i class="fab fa-facebook fa-2x"></i></span>
+                <span id="github"><i class="fab fa-github fa-2x"></i></span>
+                <span id="instagram"><i class="fab fa-instagram fa-2x"></i></i></span>
+                <span id="linkedin"><i class="fab fa-linkedin fa-2x"></i></i></span>
             </div>
         </div>
     </div>`).animate({
