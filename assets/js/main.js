@@ -152,7 +152,7 @@ function show_skills() {
                          class="mx-auto">
                 </div>
                 <h5>HTML</h5>
-                <p><b>3 years </b>of experience</p>
+                <p><b>4 years </b>of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -164,7 +164,7 @@ function show_skills() {
                          class="mx-auto">
                 </div>
                 <h5>CSS</h5>
-                <p><b>3 years </b>of experience</p>
+                <p><b>4 years </b>of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -175,7 +175,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Bootstrap</h5>
-                <p><b>2 years </b>of experience</p>
+                <p><b>3 years </b>of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -197,7 +197,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Tailwindcss</h5>
-                <p><b>4 months </b>of experience</p>
+                <p><b>5 months </b>of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -241,7 +241,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>PHP</h5>
-                <p><b>2 years </b>of experience</p>
+                <p><b>3 years </b>of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -252,7 +252,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Mysql</h5>
-                <p><b>2 years </b>of experience</p>
+                <p><b>3 years </b>of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -274,7 +274,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Laravel</h5>
-                <p><b>7 months </b>of experience</p>
+                <p><b>8 months </b>of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
