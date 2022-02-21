@@ -129,7 +129,11 @@ function show_experience() {
                         school with HTML, CSS, and Javascript
                     </p>
                 </div>
-                <h2 class="timeline__item timeline__item--year">2021</h2>
+                <div class="timeline__item">
+                    <h3 class="timeline__title">Informatics Student at Indraprasta PGRI University</h3>
+                    <small>September 2019 - now</small>
+                </div>
+                <h2 class="timeline__item timeline__item--year">2022</h2>
             </div>
         </div>
     </div>`).animate({
@@ -197,7 +201,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Tailwindcss</h5>
-                <p><b>5 months </b>of experience</p>
+                <p><b>1 year </b>of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -230,7 +234,18 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>VueJS</h5>
-                <p><b>1 month </b>of experience</p>
+                <p><b>7 month </b>of experience</p>
+            </div>
+        </div>
+        <div class="col-6 col-lg-3 mt-4">
+            <div class="card text-center pt-4 pb-3">
+                <div class="img-area">
+                    <img src="assets/img/skill/nuxtjs.png"
+                         alt="NuxtJS"
+                         width="100px">
+                </div>
+                <h5>NuxtJS</h5>
+                <p><b>7 month </b>of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -274,7 +289,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Laravel</h5>
-                <p><b>8 months </b>of experience</p>
+                <p><b>1 year </b>of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -296,7 +311,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Git</h5>
-                <p><b>1 year </b>of experience</p>
+                <p><b>2 year </b>of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -333,6 +348,21 @@ function show_projects() {
         <h1 class="text-center">PROJECTS</h1>
     </div>
     <div class="row">
+        <div class="col-12 col-lg-4 mt-4">
+            <div class="card px-2">
+                <div class="img-area">
+                    <img src="assets/img/projects/waarungg-olshop.png"
+                        alt="Waarungg Online Shop"
+                        class="mx-auto">
+                </div>
+                <h5>Online Shop</h5>
+                <p>Online Shop integrated with Tripay, Rajaongkir, and Kodepos Indonesia</p>
+                <div class="card-footer px-2">
+                    <span class="tech">Lumen 8</span>
+                    <span class="tech">NuxtJS</span>
+                </div>
+            </div>
+        </div>
         <div class="col-12 col-lg-4 mt-4">
             <div class="card px-2">
                 <div class="img-area">
