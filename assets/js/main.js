@@ -373,11 +373,11 @@ function show_projects() {
             <div class="card px-2">
                 <div class="img-area">
                     <img src="assets/img/projects/waarungg-olshop.png"
-                        alt="Waarungg Online Shop"
+                        alt="Waarungg E-commerce"
                         class="mx-auto">
                 </div>
-                <h5>Online Shop</h5>
-                <p>Online Shop integrated with Tripay, Rajaongkir, and Kodepos Indonesia</p>
+                <h5>Waarungg E-commerce</h5>
+                <p>Website E-commerce integrated with Tripay, Rajaongkir, and Kodepos Indonesia</p>
                 <div class="card-footer px-2">
                     <span class="tech">Lumen 8</span>
                     <span class="tech">NuxtJS</span>
