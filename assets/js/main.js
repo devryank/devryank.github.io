@@ -133,6 +133,12 @@ function show_experience() {
                     <h3 class="timeline__title">Informatics Student at Indraprasta PGRI University</h3>
                     <small>September 2019 - now</small>
                 </div>
+                <div class="timeline__item">
+                    <h3 class="timeline__title">Programmer Freelance</h3>
+                    <small>October 2021 - now</small>
+                    <p class="timeline__blurb">Create and develop website especially on frontend together with <a href="https://portfolio-rahmat.vercel.app">Rahmat</a> on backend according to client requests.
+                    </p>
+                </div>
                 <h2 class="timeline__item timeline__item--year">2022</h2>
             </div>
         </div>
@@ -156,7 +162,7 @@ function show_skills() {
                          class="mx-auto">
                 </div>
                 <h5>HTML</h5>
-                <p><b>4 years </b>of experience</p>
+                <p><b>5 years </b>of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -168,7 +174,7 @@ function show_skills() {
                          class="mx-auto">
                 </div>
                 <h5>CSS</h5>
-                <p><b>4 years </b>of experience</p>
+                <p><b>5 years </b>of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -179,7 +185,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Bootstrap</h5>
-                <p><b>3 years </b>of experience</p>
+                <p><b>4 years </b>of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -311,7 +317,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Git</h5>
-                <p><b>2 year </b>of experience</p>
+                <p><b>3 year </b>of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -348,6 +354,21 @@ function show_projects() {
         <h1 class="text-center">PROJECTS</h1>
     </div>
     <div class="row">
+        <div class="col-12 col-lg-4 mt-4">
+            <div class="card px-2">
+                <div class="img-area">
+                    <img src="assets/img/projects/simrs.png"
+                        alt="Sistem Informasi Rumah Sakit"
+                        class="mx-auto">
+                </div>
+                <h5>Hospital Information System</h5>
+                <p>Web Application to support the delivery of health services</p>
+                <div class="card-footer px-2">
+                    <span class="tech">Laravel 9</span>
+                    <span class="tech">NuxtJS</span>
+                </div>
+            </div>
+        </div>
         <div class="col-12 col-lg-4 mt-4">
             <div class="card px-2">
                 <div class="img-area">
@@ -432,7 +453,7 @@ function show_projects() {
                          class="mx-auto">
                 </div>
                 <h5>Ruang Nostalgia</h5>
-                <p>Renion website of all generation.
+                <p>Reunion website of all generation.
                 </p>
                 <div class="card-footer">
                     <span class="tech">Codeigniter 3</span>
@@ -447,7 +468,7 @@ function show_projects() {
                          alt="Ruangnostalgia"
                          class="mx-auto">
                 </div>
-                <h5>Statistika Dasar Data Kelompok</h5>
+                <h5>Basic Statistics of Group Data</h5>
                 <p>Website for sorting and calculating statistical group data .
                 </p>
                 <div class="card-footer">
