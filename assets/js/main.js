@@ -80,10 +80,10 @@ function show_top() {
             <h2 class="mt-5">Ryan Kurniawan</h2>
             <h4><span class="highlight">Enthusiastic</span> <b>Web Developer</b></h4>
             <div class="touch-me">
-                <span id="facebook"><i class="fab fa-facebook fa-2x"></i></span>
-                <span id="github"><i class="fab fa-github fa-2x"></i></span>
-                <span id="instagram"><i class="fab fa-instagram fa-2x"></i></i></span>
-                <span id="linkedin"><i class="fab fa-linkedin fa-2x"></i></i></span>
+                <a href="https://web.facebook.com/devryank" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="https://github.com/devryank" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://instagram.com/devryank" target="_blank"><i class="fab fa-instagram fa-2x"></i></i></a>
+                <a href="https://www.linkedin.com/in/ryan-kurniawan-204127173" target="_blank"><i class="fab fa-linkedin fa-2x"></i></i></a>
             </div>
         </div>
     </div>`).animate({
@@ -357,6 +357,36 @@ function show_projects() {
         <div class="col-12 col-lg-4 mt-4">
             <div class="card px-2">
                 <div class="img-area">
+                    <img src="assets/img/projects/pustaka.png"
+                        alt="Library Website"
+                        class="mx-auto">
+                </div>
+                <h5>Library Management System</h5>
+                <p>Library website for Anambas Regional Library using Laravel 9 and Nuxt JS.</p>
+                <div class="card-footer px-2">
+                    <span class="tech">Laravel 9</span>
+                    <span class="tech">NuxtJS</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 mt-4">
+            <div class="card px-2">
+                <div class="img-area">
+                    <img src="assets/img/projects/disdik.png"
+                        alt="Dinas Pendidikan, Pemuda, dan Olahraga"
+                        class="mx-auto">
+                </div>
+                <h5>Dinas Pendidikan, Pemuda, dan Olahraga</h5>
+                <p>Web for the Anambas Regency Education, Youth, and Sports Office using Laravel 9 and Nuxt JS. Manage thousands of students, teachers, and other education personnel data</p>
+                <div class="card-footer px-2">
+                    <span class="tech">Laravel 9</span>
+                    <span class="tech">NuxtJS</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 mt-4">
+            <div class="card px-2">
+                <div class="img-area">
                     <img src="assets/img/projects/simrs.png"
                         alt="Sistem Informasi Rumah Sakit"
                         class="mx-auto">
@@ -500,17 +530,4 @@ $('li.skills').on('click', function () {
 $('li.projects').on('click', function () {
     let active = $('.container').parent().attr('id');
     show_section(active, 'projects', 20);
-});
-
-$('#facebook').on('click', function () {
-    window.location.href = "https://web.facebook.com/devryank/";
-});
-$('#github').on('click', function () {
-    window.location.href = "https://github.com/devryank";
-});
-$('#instagram').on('click', function () {
-    window.location.href = "https://instagram.com/devryank/";
-});
-$('#linkedin').on('click', function () {
-    window.location.href = "https://www.linkedin.com/in/ryan-kurniawan-204127173/";
 });
