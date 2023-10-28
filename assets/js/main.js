@@ -131,15 +131,28 @@ function show_experience() {
                 </div>
                 <div class="timeline__item">
                     <h3 class="timeline__title">Informatics Student at Indraprasta PGRI University</h3>
-                    <small>September 2019 - now</small>
-                </div>
-                <div class="timeline__item">
-                    <h3 class="timeline__title">Programmer Freelance</h3>
-                    <small>October 2021 - now</small>
-                    <p class="timeline__blurb">Create and develop website especially on frontend together with <a href="https://portfolio-rahmat.vercel.app">Rahmat</a> on backend according to client requests.
-                    </p>
+                    <small>September 2019 - August 2023</small>
                 </div>
                 <h2 class="timeline__item timeline__item--year">2022</h2>
+                <div class="timeline__item">
+                    <h3 class="timeline__title">Frontend Developer</h3>
+                    <small>April 2022 - January 2023</small>
+                    <p class="timeline__blurb">Created a website for Department of Education, Youth and Sports for Anambas District using Nuxt JS together with <a href="https://portfolio-rahmat.vercel.app">Rahmat Afriyadi</a> on Backend which has many modules such as student, teacher and educational staff management, vaccination report, attendance, graduation, mail between schools, etc.
+                    </p>
+                </div>
+                <h2 class="timeline__item timeline__item--year">2023</h2>
+                <div class="timeline__item">
+                    <h3 class="timeline__title">Quality Assurance Intern at Bumitama Gunajaya Agro</h3>
+                    <small>June 2023 - Now</small>
+                    <p class="timeline__blurb">Creating scenarios and testing internal applications that are being developed.
+                    </p>
+                </div>
+                <div class="timeline__item">
+                    <h3 class="timeline__title">Quality Assurance at Bumitama Gunajaya Agro</h3>
+                    <small>June 2023 - Now</small>
+                    <p class="timeline__blurb">Getting the opportunity to become a contract employee after the internship with the same jobdesk and also supporting users of operational budget application in 2024.
+                    </p>
+                </div>
             </div>
         </div>
     </div>`).animate({
@@ -162,7 +175,7 @@ function show_skills() {
                          class="mx-auto">
                 </div>
                 <h5>HTML</h5>
-                <p><b>5 years </b>of experience</p>
+                <p><b>5 years</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -174,7 +187,7 @@ function show_skills() {
                          class="mx-auto">
                 </div>
                 <h5>CSS</h5>
-                <p><b>5 years </b>of experience</p>
+                <p><b>5 years</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -185,7 +198,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Bootstrap</h5>
-                <p><b>4 years </b>of experience</p>
+                <p><b>4 years</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -196,7 +209,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Materialize</h5>
-                <p><b>2 months </b>of experience</p>
+                <p><b>2 months</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -207,7 +220,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Tailwindcss</h5>
-                <p><b>1 year </b>of experience</p>
+                <p><b>1 year</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -218,7 +231,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Javascript</h5>
-                <p><b>2 years </b>of experience</p>
+                <p><b>2 years</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -229,7 +242,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Jquery</h5>
-                <p><b>2 years </b>of experience</p>
+                <p><b>2 years</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -251,7 +264,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>NuxtJS</h5>
-                <p><b>7 month </b>of experience</p>
+                <p><b>1 year</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -262,7 +275,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>PHP</h5>
-                <p><b>3 years </b>of experience</p>
+                <p><b>4 years</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -273,7 +286,18 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Mysql</h5>
-                <p><b>3 years </b>of experience</p>
+                <p><b>3 years</b> of experience</p>
+            </div>
+        </div>
+        <div class="col-6 col-lg-3 mt-4">
+            <div class="card text-center pt-4 pb-3">
+                <div class="img-area">
+                    <img src="assets/img/skill/sqlserver.png"
+                         alt="Mysql"
+                         width="100px">
+                </div>
+                <h5>SQL Server</h5>
+                <p><b>7 months</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -284,7 +308,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Codeigniter</h5>
-                <p><b>2 years </b>of experience</p>
+                <p><b>2 years</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -295,7 +319,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Laravel</h5>
-                <p><b>1 year </b>of experience</p>
+                <p><b>1 year</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -306,7 +330,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Wordpress</h5>
-                <p><b>11 months </b>of experience</p>
+                <p><b>11 months</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -317,7 +341,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Git</h5>
-                <p><b>3 year </b>of experience</p>
+                <p><b>4 year</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -328,7 +352,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Lunacy</h5>
-                <p><b>8 months </b>of experience</p>
+                <p><b>8 months</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -339,7 +363,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Photoshop</h5>
-                <p><b>3 years </b>of experience</p>
+                <p><b>3 years</b> of experience</p>
             </div>
         </div>
     </div>
@@ -354,6 +378,38 @@ function show_projects() {
         <h1 class="text-center">PROJECTS</h1>
     </div>
     <div class="row">
+        <div class="col-12 col-lg-4 mt-4">
+            <div class="card px-2">
+                <div class="img-area">
+                    <img src="assets/img/projects/wisudapolimedia.png"
+                        alt="Polimedia Graduation Bundling Package"
+                        class="mx-auto">
+                </div>
+                <h5>Polimedia Graduation Bundling Package</h5>
+                <p>Website for purchasing bundling packages such as photobooth, spin 360, and toga for graduates of the Politeknik Negeri Media Kreatif
+                </p>
+                <div class="card-footer px-2">
+                    <span class="tech">Laravel 9</span>
+                    <span class="tech">NuxtJS</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 mt-4">
+            <div class="card px-2">
+                <div class="img-area">
+                    <img src="assets/img/projects/SKM.png"
+                        alt="Public Satisfaction Survey"
+                        class="mx-auto">
+                </div>
+                <h5>Public Satisfaction Survey for Department of Education, Youth and Sports</h5>
+                <p>Website for Public Satisfaction Survey about services provided by regional apparatus, sub-districts, and health for Anambas District
+                </p>
+                <div class="card-footer px-2">
+                    <span class="tech">Laravel</span>
+                    <span class="tech">NuxtJS</span>
+                </div>
+            </div>
+        </div>
         <div class="col-12 col-lg-4 mt-4">
             <div class="card px-2">
                 <div class="img-area">
@@ -373,11 +429,11 @@ function show_projects() {
             <div class="card px-2">
                 <div class="img-area">
                     <img src="assets/img/projects/disdik.png"
-                        alt="Dinas Pendidikan, Pemuda, dan Olahraga"
+                        alt="Department of Education, Youth and Sports"
                         class="mx-auto">
                 </div>
-                <h5>Dinas Pendidikan, Pemuda, dan Olahraga</h5>
-                <p>Web for the Anambas Regency Education, Youth, and Sports Office using Laravel 9 and Nuxt JS. Manage thousands of students, teachers, and other education personnel data</p>
+                <h5>Department of Education, Youth and Sports</h5>
+                <p>Website for the Anambas Regency using Laravel 9 and Nuxt JS. Manage thousands of students, teachers, and other education personnel data</p>
                 <div class="card-footer px-2">
                     <span class="tech">Laravel 9</span>
                     <span class="tech">NuxtJS</span>
