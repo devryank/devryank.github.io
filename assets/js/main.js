@@ -143,13 +143,13 @@ function show_experience() {
                 <h2 class="timeline__item timeline__item--year">2023</h2>
                 <div class="timeline__item">
                     <h3 class="timeline__title">Quality Assurance Intern at Bumitama Gunajaya Agro</h3>
-                    <small>June 2023 - Now</small>
+                    <small>February - June</small>
                     <p class="timeline__blurb">Creating scenarios and testing internal applications that are being developed.
                     </p>
                 </div>
                 <div class="timeline__item">
                     <h3 class="timeline__title">Quality Assurance at Bumitama Gunajaya Agro</h3>
-                    <small>June 2023 - Now</small>
+                    <small>June - Now</small>
                     <p class="timeline__blurb">Getting the opportunity to become a contract employee after the internship with the same jobdesk and also supporting users of operational budget application in 2024.
                     </p>
                 </div>
