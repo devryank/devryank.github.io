@@ -220,6 +220,28 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Tailwindcss</h5>
+                <p><b>2 years</b> of experience</p>
+            </div>
+        </div>
+        <div class="col-6 col-lg-3 mt-4">
+            <div class="card text-center pt-4 pb-3">
+                <div class="img-area">
+                    <img src="assets/img/skill/c-crash.png"
+                         alt="C#"
+                         width="100px">
+                </div>
+                <h5>C#</h5>
+                <p><b>1 year</b> of experience</p>
+            </div>
+        </div>
+        <div class="col-6 col-lg-3 mt-4">
+            <div class="card text-center pt-4 pb-3">
+                <div class="img-area">
+                    <img src="assets/img/skill/.net.png"
+                         alt=".NET"
+                         width="100px">
+                </div>
+                <h5>.NET</h5>
                 <p><b>1 year</b> of experience</p>
             </div>
         </div>
@@ -231,7 +253,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Javascript</h5>
-                <p><b>2 years</b> of experience</p>
+                <p><b>3 years</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -253,7 +275,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>VueJS</h5>
-                <p><b>7 month </b>of experience</p>
+                <p><b>1 year </b>of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -297,7 +319,7 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>SQL Server</h5>
-                <p><b>7 months</b> of experience</p>
+                <p><b>1 year</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
