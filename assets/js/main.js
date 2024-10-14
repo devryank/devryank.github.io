@@ -237,7 +237,7 @@ function show_skills() {
         <div class="col-6 col-lg-3 mt-4">
             <div class="card text-center pt-4 pb-3">
                 <div class="img-area">
-                    <img src="assets/img/skill/.net.png"
+                    <img src="assets/img/skill/net.png"
                          alt=".NET"
                          width="100px">
                 </div>
