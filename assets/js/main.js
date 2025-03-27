@@ -74,11 +74,11 @@ function show_top() {
     $('#top').html(`<div class="container h-100">
         <div class="card col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 py-5 mx-auto text-center"
                 id="profile">
-            <img src="assets/img/pp.png"
-                    alt=""
+            <img src="assets/img/ryan-kurniawan-min.png"
+                    alt="Ryan Kurniawan devryank"
                     class="rounded-circle mx-auto">
             <h2 class="mt-5">Ryan Kurniawan</h2>
-            <h4><span class="highlight">Enthusiastic</span> <b>Web Developer</b></h4>
+            <h4><span class="highlight">Enthusiastic </span><b>Full-Stack Developer</b></h4>
             <div class="touch-me">
                 <a href="https://web.facebook.com/devryank" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
                 <a href="https://github.com/devryank" target="_blank"><i class="fab fa-github fa-2x"></i></a>
@@ -149,8 +149,15 @@ function show_experience() {
                 </div>
                 <div class="timeline__item">
                     <h3 class="timeline__title">Quality Assurance at Bumitama Gunajaya Agro</h3>
-                    <small>June - Now</small>
-                    <p class="timeline__blurb">Getting the opportunity to become a contract employee after the internship with the same jobdesk and also supporting users of operational budget application in 2024.
+                    <small>June - December</small>
+                    <p class="timeline__blurb">Ensured the quality and reliability of web and desktop applications through rigorous testing and performance optimization. Conducted manual testing, identified and resolved defects, and collaborated with development teams to enhance software quality.
+                    </p>
+                </div>
+                <h2 class="timeline__item timeline__item--year">2024</h2>
+                <div class="timeline__item">
+                    <h3 class="timeline__title">Fullstack Developer at Bumitama Gunajaya Agro</h3>
+                    <small>January - Now</small>
+                    <p class="timeline__blurb">Developed and maintained internal web, desktop applications, and windows service with Vue.js, .NET, SQL Server, and MySQL.
                     </p>
                 </div>
             </div>
