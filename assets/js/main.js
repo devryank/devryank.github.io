@@ -72,18 +72,18 @@ function show_section(active, show, topNav) {
 }
 function show_top() {
     $('#top').html(`<div class="container h-100">
-        <div class="card col-10 offset-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3 py-5 mx-auto text-center"
+        <div class="card mx-auto text-center"
                 id="profile">
             <img src="assets/img/ryan-kurniawan-min.png"
                     alt="Ryan Kurniawan devryank"
                     class="rounded-circle mx-auto">
-            <h2 class="mt-5">Ryan Kurniawan</h2>
-            <h4><span class="highlight">Enthusiastic </span><b>Full-Stack Developer</b></h4>
+            <h2>Ryan Kurniawan</h2>
+            <h4><b>Full Stack Developer</b><br><span class="highlight">&amp; IT Business Analyst</span></h4>
             <div class="touch-me">
                 <a href="https://web.facebook.com/devryank" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
                 <a href="https://github.com/devryank" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-                <a href="https://instagram.com/devryank" target="_blank"><i class="fab fa-instagram fa-2x"></i></i></a>
-                <a href="https://www.linkedin.com/in/ryan-kurniawan-204127173" target="_blank"><i class="fab fa-linkedin fa-2x"></i></i></a>
+                <a href="https://instagram.com/devryank" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/ryan-kurniawan-204127173" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
             </div>
         </div>
     </div>`).animate({
@@ -92,79 +92,69 @@ function show_top() {
 }
 
 function show_experience() {
-    $('#experience').html(`<div class="container">
-    <div class="col-12">
+    $('#experience').html(`<div class="container"><div class="col-12">
         <h1 class="text-center">EXPERIENCE</h1>
-            <div class="timeline">
-                <h2 class="timeline__item timeline__item--year">2017</h2>
-
-                <div class="timeline__item">
-                    <h3 class="timeline__title">3rd place at LKS Wilayah Jakarta Selatan 1</h3>
-                    <small>November</small>
-                    <p class="timeline__blurb">Built a tourism blog with PHP Native and Mysql</p>
+        <p class="text-center">Based in South Jakarta, Indonesia. 5+ years delivering enterprise web, desktop, and background-service applications, from requirements and solution design to production support.</p>
+        <div class="timeline">
+            <h2 class="timeline__item timeline__item--year">2026</h2>
+            <div class="timeline__item">
+                <h3 class="timeline__title">IT Business Analyst at Bumitama Gunajaya Agro</h3>
+                <small>January 2026 - Present</small>
+                <p class="timeline__blurb">Own enterprise application enhancements from requirements and solution analysis to HLD/FSD documentation, timeline planning, test scenarios, UAT, and production go-live. Led performance optimization of 26 enterprise reports to improve responsiveness and reduce database resource utilization. Supported solution design for supplier assessment, workforce validation, production recalculation, inventory integration, bulking sales, and mobile overtime management.</p>
                 </div>
-
-                <h2 class="timeline__item timeline__item--year">2018</h2>
-
-                <div class="timeline__item">
-                    <h3 class="timeline__title">Web Programmer Internship at Pusat Penilaian Pendidikan</h3>
-                    <small>February - May </small>
-                    <p class="timeline__blurb">inputting interactive exam simulations for elementary to high
-                        school with HTML, CSS, and Javascript
-                    </p>
+            <h2 class="timeline__item timeline__item--year">2024</h2>
+            <div class="timeline__item">
+                <h3 class="timeline__title">Full Stack Developer at Bumitama Gunajaya Agro</h3>
+                <small>January 2024 - December 2025</small>
+                <p class="timeline__blurb">Developed enterprise HRIS, plantation quality, and operational reporting modules. Resolved a critical legacy PHP payroll defect affecting base salary and incentives. Developed a scheduler in a .NET application to retrieve data from internal applications and send it to SAP EHP8. Implemented delta-based production recalculation to eliminate stock discrepancies during SAP reconciliation. Supported on-site pilot and production rollouts in Kalimantan.</p>
                 </div>
-
-                <h2 class="timeline__item timeline__item--year">2019</h2>
-                <div class="timeline__item">
-                    <h3 class="timeline__title">6th place at Edutech Coding Competition</h3>
-                    <small>February</small>
-                    <p class="timeline__blurb">built a student information system that monitors student grades
-                        for a year with Codeigniter 3
-                    </p>
+            <h2 class="timeline__item timeline__item--year">2023</h2>
+            <div class="timeline__item">
+                <h3 class="timeline__title">Quality Assurance at Bumitama Gunajaya Agro</h3>
+                <small>June 2023 - December 2023</small>
+                <p class="timeline__blurb">Ensured the quality and reliability of web and desktop applications through accurate testing and performance optimization.</p>
                 </div>
-                <div class="timeline__item">
-                    <h3 class="timeline__title">Web Programmer at Pusat Asesmen dan Pembelajaran</h3>
-                    <small>April 2019 - October 2020</small>
-                    <p class="timeline__blurb">inputting interactive exam simulations for elementary to high
-                        school with HTML, CSS, and Javascript
-                    </p>
+            <h2 class="timeline__item timeline__item--year">2021</h2>
+            <div class="timeline__item">
+                <h3 class="timeline__title">Junior Web Developer Certification</h3>
+                <small>2021</small>
+                <p class="timeline__blurb">Certified by the BPPTIK Professional Certification Institute.</p>
                 </div>
-                <div class="timeline__item">
-                    <h3 class="timeline__title">Informatics Student at Indraprasta PGRI University</h3>
-                    <small>September 2019 - August 2023</small>
+            <div class="timeline__item">
+                <h3 class="timeline__title">Operate and Manage Cloud Server on Alibaba Cloud VPS</h3>
+                <small>2021</small>
+                <p class="timeline__blurb">Completed a course on operating and managing cloud servers on Alibaba Cloud VPS.</p>
                 </div>
-                <h2 class="timeline__item timeline__item--year">2022</h2>
-                <div class="timeline__item">
-                    <h3 class="timeline__title">Frontend Developer</h3>
-                    <small>April 2022 - January 2023</small>
-                    <p class="timeline__blurb">Created a website for Department of Education, Youth and Sports for Anambas District using Nuxt JS together with <a href="https://portfolio-rahmat.vercel.app">Rahmat Afriyadi</a> on Backend which has many modules such as student, teacher and educational staff management, vaccination report, attendance, graduation, mail between schools, etc.
-                    </p>
+            <h2 class="timeline__item timeline__item--year">2020</h2>
+            <div class="timeline__item">
+                <h3 class="timeline__title">Freelance Front-End Web Developer</h3>
+                <small>October 2020 - December 2022</small>
+                <p class="timeline__blurb">Built responsive interfaces and reusable components with Vue.js, Nuxt.js, Tailwind CSS, and Bootstrap. Integrated RESTful APIs and third-party services, and automated deployments with GitHub CI/CD pipelines and Vercel.</p>
                 </div>
-                <h2 class="timeline__item timeline__item--year">2023</h2>
-                <div class="timeline__item">
-                    <h3 class="timeline__title">Quality Assurance Intern at Bumitama Gunajaya Agro</h3>
-                    <small>February - June</small>
-                    <p class="timeline__blurb">Creating scenarios and testing internal applications that are being developed.
-                    </p>
+            <h2 class="timeline__item timeline__item--year">2019</h2>
+            <div class="timeline__item">
+                <h3 class="timeline__title">Bachelor of Computer Science at Universitas Indraprasta PGRI</h3>
+                <small>September 2019 - September 2023</small>
+                <p class="timeline__blurb">GPA: 3.58/4.00.</p>
                 </div>
-                <div class="timeline__item">
-                    <h3 class="timeline__title">Quality Assurance at Bumitama Gunajaya Agro</h3>
-                    <small>June - December</small>
-                    <p class="timeline__blurb">Ensured the quality and reliability of web and desktop applications through rigorous testing and performance optimization. Conducted manual testing, identified and resolved defects, and collaborated with development teams to enhance software quality.
-                    </p>
+            <div class="timeline__item">
+                <h3 class="timeline__title">Programmer at Pusat Asesmen dan Pembelajaran</h3>
+                <small>April 2019 - September 2020</small>
+                <p class="timeline__blurb">Digitized more than 1,000 exam questions in an internal application using Bootstrap and jQuery. Collaborated with teachers and lecturers to prepare educational assessments.</p>
                 </div>
-                <h2 class="timeline__item timeline__item--year">2024</h2>
-                <div class="timeline__item">
-                    <h3 class="timeline__title">Fullstack Developer at Bumitama Gunajaya Agro</h3>
-                    <small>January - Now</small>
-                    <p class="timeline__blurb">Developed and maintained internal web, desktop applications, and windows service with Vue.js, .NET, SQL Server, and MySQL.
-                    </p>
+            <div class="timeline__item">
+                <h3 class="timeline__title">6th Place, National Edutech Coding Competition</h3>
+                <small>2019</small>
+                <p class="timeline__blurb">Built a student information system to monitor yearly student grades using CodeIgniter 3.</p>
                 </div>
-            </div>
+            <h2 class="timeline__item timeline__item--year">2017</h2>
+            <div class="timeline__item">
+                <h3 class="timeline__title">3rd Place, Regional Web Design Competition</h3>
+                <small>2017</small>
+                <p class="timeline__blurb">Built a travel blog using PHP.</p>
+                </div>
         </div>
-    </div>`).animate({
-        opacity: 100,
-    }, 800)
+    </div></div>`).animate({ opacity: 1 }, 800);
 }
 
 function show_skills() {
@@ -182,7 +172,6 @@ function show_skills() {
                          class="mx-auto">
                 </div>
                 <h5>HTML</h5>
-                <p><b>5 years</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -194,7 +183,6 @@ function show_skills() {
                          class="mx-auto">
                 </div>
                 <h5>CSS</h5>
-                <p><b>5 years</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -205,7 +193,6 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Bootstrap</h5>
-                <p><b>4 years</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -216,7 +203,6 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Materialize</h5>
-                <p><b>2 months</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -226,8 +212,7 @@ function show_skills() {
                          alt="tailwindcss"
                          width="100px">
                 </div>
-                <h5>Tailwindcss</h5>
-                <p><b>2 years</b> of experience</p>
+                <h5>Tailwind CSS</h5>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -238,7 +223,6 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>C#</h5>
-                <p><b>1 year</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -249,7 +233,6 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>.NET</h5>
-                <p><b>1 year</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -259,8 +242,7 @@ function show_skills() {
                          alt="javascript"
                          width="100px">
                 </div>
-                <h5>Javascript</h5>
-                <p><b>3 years</b> of experience</p>
+                <h5>JavaScript</h5>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -270,8 +252,7 @@ function show_skills() {
                          alt="Jquery"
                          width="100px">
                 </div>
-                <h5>Jquery</h5>
-                <p><b>2 years</b> of experience</p>
+                <h5>jQuery</h5>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -281,8 +262,7 @@ function show_skills() {
                          alt="vue"
                          width="100px">
                 </div>
-                <h5>VueJS</h5>
-                <p><b>1 year </b>of experience</p>
+                <h5>Vue.js</h5>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -292,8 +272,7 @@ function show_skills() {
                          alt="NuxtJS"
                          width="100px">
                 </div>
-                <h5>NuxtJS</h5>
-                <p><b>1 year</b> of experience</p>
+                <h5>Nuxt.js</h5>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -304,7 +283,6 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>PHP</h5>
-                <p><b>4 years</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -314,19 +292,17 @@ function show_skills() {
                          alt="Mysql"
                          width="100px">
                 </div>
-                <h5>Mysql</h5>
-                <p><b>3 years</b> of experience</p>
+                <h5>MySQL</h5>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
             <div class="card text-center pt-4 pb-3">
                 <div class="img-area">
                     <img src="assets/img/skill/sqlserver.png"
-                         alt="Mysql"
+                         alt="SQL Server"
                          width="100px">
                 </div>
                 <h5>SQL Server</h5>
-                <p><b>1 year</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -336,8 +312,7 @@ function show_skills() {
                          alt="Codeigniter"
                          width="100px">
                 </div>
-                <h5>Codeigniter</h5>
-                <p><b>2 years</b> of experience</p>
+                <h5>CodeIgniter</h5>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -348,7 +323,6 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Laravel</h5>
-                <p><b>1 year</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -358,8 +332,7 @@ function show_skills() {
                          alt="Wordpress"
                          width="100px">
                 </div>
-                <h5>Wordpress</h5>
-                <p><b>11 months</b> of experience</p>
+                <h5>WordPress</h5>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -370,7 +343,6 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Git</h5>
-                <p><b>4 year</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -381,7 +353,6 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Lunacy</h5>
-                <p><b>8 months</b> of experience</p>
             </div>
         </div>
         <div class="col-6 col-lg-3 mt-4">
@@ -392,9 +363,37 @@ function show_skills() {
                          width="100px">
                 </div>
                 <h5>Photoshop</h5>
-                <p><b>3 years</b> of experience</p>
             </div>
         </div>
+        <div class="col-6 col-lg-3 mt-4">
+            <div class="card text-center pt-4 pb-3">
+                <div class="img-area">
+                    <img src="assets/img/skill/devexpress.png" alt="DevExpress" width="100px" class="mx-auto">
+                </div>
+                <h5>DevExpress</h5>
+            </div>
+        </div>
+        <div class="col-6 col-lg-3 mt-4">
+            <div class="card text-center pt-4 pb-3">
+                <div class="img-area">
+                    <img src="assets/img/skill/github-cicd.png" alt="GitHub CI/CD" width="100px" class="mx-auto">
+                </div>
+                <h5>GitHub CI/CD</h5>
+            </div>
+        </div>
+        <div class="col-6 col-lg-3 mt-4">
+            <div class="card text-center pt-4 pb-3">
+                <div class="img-area">
+                    <img src="assets/img/skill/vercel.png" alt="Vercel" width="100px" class="mx-auto">
+                </div>
+                <h5>Vercel</h5>
+            </div>
+        </div>
+    </div>
+    <div class="mt-5 pb-4">
+        <h2>Business Analysis &amp; Delivery</h2>
+        <p>Requirements gathering, solution design, HLD/FSD documentation, timeline planning, UAT, go-live, and production support.</p>
+        <p>SQL performance tuning, RESTful API integration, communication, time management, and teamwork.</p>
     </div>
 </div>`).animate({
         opacity: 100,
@@ -403,10 +402,7 @@ function show_skills() {
 
 function show_projects() {
     $('#projects').html(`<div class="container">
-    <div class="col-lg-12">
-        <h1 class="text-center">PROJECTS</h1>
-    </div>
-    <div class="row">
+    <div class="row"><div class="col-12 col-lg-4 mt-4"><div class="card p-3"><div class="img-area"><img src="assets/img/projects/Enterprise%20HRIS%20%26%20Operations.png" alt="Concept illustration for Enterprise HRIS &amp; Operations" class="mx-auto" loading="lazy"></div><h5>Enterprise HRIS &amp; Operations</h5><p>Developed employee transfer, promotion, demotion, data change, and termination modules, workforce quota reports, and plantation operational modules.</p><div class="card-footer px-2"><span class="tech">.NET</span></div></div></div><div class="col-12 col-lg-4 mt-4"><div class="card p-3"><div class="img-area"><img src="assets/img/projects/SAP%20Integration%20%26%20Reconciliation.png" alt="Concept illustration for SAP Integration &amp; Reconciliation" class="mx-auto" loading="lazy"></div><h5>SAP Integration &amp; Reconciliation</h5><p>Developed a scheduler in a .NET application to retrieve data from internal applications and send it to SAP EHP8. Implemented delta-based recalculation of FFB, CPO, and PK production to support reconciliation.</p><div class="card-footer px-2"><span class="tech">.NET</span></div></div></div><div class="col-12 col-lg-4 mt-4"><div class="card p-3"><div class="img-area"><img src="assets/img/projects/Enterprise%20Report%20Optimization.png" alt="Concept illustration for Enterprise Report Optimization" class="mx-auto" loading="lazy"></div><h5>Enterprise Report Optimization</h5><p>Led performance optimization of 26 reports by reviewing query execution, data scans, parallel execution, filtering scope, and load times.</p><div class="card-footer px-2"><span class="tech">SQL performance tuning</span></div></div></div>
         <div class="col-12 col-lg-4 mt-4">
             <div class="card px-2">
                 <div class="img-area">
@@ -462,7 +458,7 @@ function show_projects() {
                         class="mx-auto">
                 </div>
                 <h5>Department of Education, Youth and Sports</h5>
-                <p>Website for the Anambas Regency using Laravel 9 and Nuxt JS. Manage thousands of students, teachers, and other education personnel data</p>
+                <p>2022: Website for the Anambas Regency Education, Youth, and Sports Office, built with Laravel 9 and Nuxt.js.</p>
                 <div class="card-footer px-2">
                     <span class="tech">Laravel 9</span>
                     <span class="tech">NuxtJS</span>
@@ -477,7 +473,7 @@ function show_projects() {
                         class="mx-auto">
                 </div>
                 <h5>Hospital Information System</h5>
-                <p>Web Application to support the delivery of health services</p>
+                <p>2022: Hospital information system supporting health service delivery, built with Laravel 9 and Nuxt.js.</p>
                 <div class="card-footer px-2">
                     <span class="tech">Laravel 9</span>
                     <span class="tech">NuxtJS</span>
@@ -492,25 +488,10 @@ function show_projects() {
                         class="mx-auto">
                 </div>
                 <h5>Waarungg E-commerce</h5>
-                <p>Website E-commerce integrated with Tripay, Rajaongkir, and Kodepos Indonesia</p>
+                <p>2022: E-commerce application integrated with Tripay, RajaOngkir, and Indonesian postal codes.</p>
                 <div class="card-footer px-2">
-                    <span class="tech">Lumen 8</span>
+                    <span class="tech">Laravel 8</span>
                     <span class="tech">NuxtJS</span>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-lg-4 mt-4">
-            <div class="card px-2">
-                <div class="img-area">
-                    <img src="assets/img/projects/ciresto.png"
-                         alt="Ciresto"
-                         class="mx-auto">
-                </div>
-                <h5>Restaurant Management System</h5>
-                <p>Restaurant management that can manage from admin to waiter.</p>
-                <div class="card-footer px-2">
-                    <span class="tech">Codeigniter 3</span>
-                    <span class="tech">JQuery</span>
                 </div>
             </div>
         </div>
@@ -522,41 +503,11 @@ function show_projects() {
                          class="mx-auto">
                 </div>
                 <h5>Decision Support System with SAW Method</h5>
-                <p>DSS that can be for various case, e.g., selection employees.
+                <p>2020: Decision support system using the Simple Additive Weighting (SAW) method, built with CodeIgniter 4.
                 </p>
                 <div class="card-footer">
                     <span class="tech">Codeigniter 4</span>
                     <span class="tech">JQuery</span>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-lg-4 mt-4">
-            <div class="card px-2">
-                <div class="img-area">
-                    <img src="assets/img/projects/laratour.png"
-                         alt="Laratour"
-                         class="mx-auto">
-                </div>
-                <h5>Wisataku</h5>
-                <p>Travel vlog website and user can request a place to visit and give a donation to guide.
-                </p>
-                <div class="card-footer">
-                    <span class="tech">Laravel 6</span>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-lg-4 mt-4">
-            <div class="card px-2">
-                <div class="img-area">
-                    <img src="assets/img/projects/olcourse.png"
-                         alt="OLCourse"
-                         class="mx-auto">
-                </div>
-                <h5>Online Course</h5>
-                <p>Online learning website.
-                </p>
-                <div class="card-footer">
-                    <span class="tech">Codeigniter 4</span>
                 </div>
             </div>
         </div>
@@ -568,26 +519,11 @@ function show_projects() {
                          class="mx-auto">
                 </div>
                 <h5>Ruang Nostalgia</h5>
-                <p>Reunion website of all generation.
+                <p>2021: Reunion website for all generations of Multimedia SMKN 41 Jakarta, with QR code-based attendance.
                 </p>
                 <div class="card-footer">
                     <span class="tech">Codeigniter 3</span>
                     <span class="tech">JQuery</span>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-lg-4 mt-4">
-            <div class="card px-2">
-                <div class="img-area">
-                    <img src="assets/img/projects/statdas.png"
-                         alt="Ruangnostalgia"
-                         class="mx-auto">
-                </div>
-                <h5>Basic Statistics of Group Data</h5>
-                <p>Website for sorting and calculating statistical group data .
-                </p>
-                <div class="card-footer">
-                    <span class="tech">PHP Native</span>
                 </div>
             </div>
         </div>

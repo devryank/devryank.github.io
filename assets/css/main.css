@@ -369,3 +369,77 @@ nav li a:hover:before {
     margin-top: -50px !important;
   }
 }
+
+/* Responsive profile card */
+#top.h-100 {
+  min-height: 640px;
+}
+
+#top > .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 150px;
+}
+
+#top #profile {
+  position: relative;
+  inset: auto;
+  width: 100%;
+  max-width: 570px;
+  height: auto;
+  padding: 32px 24px;
+  border-radius: 12px;
+}
+
+#top #profile img {
+  position: static;
+  transform: none;
+  width: 144px;
+  height: 144px;
+  object-fit: contain;
+  border: 6px solid #f2f2f2;
+  margin: 0 auto 24px !important;
+}
+
+#profile h2 {
+  margin: 0 0 12px;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  line-height: 1.25;
+}
+
+#profile h4 {
+  margin: 0;
+  font-size: clamp(1rem, 3vw, 1.4rem);
+  line-height: 1.5;
+}
+
+#profile .touch-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  height: auto;
+  padding-top: 24px;
+}
+
+#profile .touch-me a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+}
+
+@media (max-width: 575px) {
+  #top #profile {
+    padding: 28px 16px;
+  }
+  #top #profile img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px !important;
+  }
+}
